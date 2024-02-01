@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+/* src/App.css 또는 원하는 CSS 파일에 추가 */
+.login-button,
+.signup-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
