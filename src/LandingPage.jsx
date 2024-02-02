@@ -15,7 +15,7 @@ const Background = styled.div`
   justify-content: center;
 `;
 
-const EmailButton = styled.button`
+const EmailButton = styled.input`
   width: 386px;
   height: 81px;
   background-color: #8E8E8E;
@@ -28,7 +28,7 @@ const EmailButton = styled.button`
   font-family: 'Pretendard', sans-serif;
 `;
 
-const PasswordButton = styled(EmailButton)``;
+const PasswordButton = styled.input``;
 
 const LoginButton = styled.button`
   background-color: #6695F1;
